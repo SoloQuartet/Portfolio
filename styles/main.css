@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'Momo Trust Display';
-    src: url('/assets/fonts/MomoTrustDisplay/fonts/ttf/MomoTrustDisplay-Regular.ttf');
+    src: url('/Portfolio/assets/fonts/MomoTrustDisplay/fonts/ttf/MomoTrustDisplay-Regular.ttf');
 }
 
 html, body {
@@ -18,7 +18,7 @@ html, body {
 }
 
 body {
-    background-image: url("../assets/images/hexBackgroundDarker.png");
+    background-image: url("/Portfolio/assets/images/hexBackgroundDarker.png");
     background-size: 50%;
 }
 
