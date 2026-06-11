@@ -1,0 +1,38 @@
+<h2>
+    Completely Reworked Portfolio
+</h2>
+<img src="/assets/images/testCover.png" alt="">
+<div>
+    <p>
+    You are currently exploring my portfolio, some functionnalities are work in progress and are therefore part of this project.
+</p>
+<p>
+    The main functionnalities to add are the illustrations to add.
+</p>
+</div>
+<ArticleSeparator/>
+<p>
+    I am currently working on it regularly.
+</p>
+<ArticleSeparator/>
+<h3>
+    Linked Skills :
+</h3>
+<ul class="labelledIconList">
+    <li>
+        <img src="/assets/images/HTML5Icon.png" alt="">
+        <span>HTML</span>
+    </li>
+    <li>
+        <img src="/assets/images/CSS3Icon.png" alt="">
+        <span>CSS</span>
+    </li>
+    <li>
+        <img src="/assets/images/JavaScriptIcon.png" alt="">
+        <span>Java Script</span>
+    </li>
+    <li>
+        <img src="/assets/images/VSCodeIcon.png" alt="">
+        <span>Visual Studio Code</span>
+    </li>
+</ul>

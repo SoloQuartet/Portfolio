@@ -1,0 +1,53 @@
+#cardWidgetSelector {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    width: 95%;
+    gap: 3%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+#cardWidgetSelector li {
+    width: 16%;
+    transition: 0.3s ease-in-out;
+}
+
+#cardWidgetSelector li:hover {
+    transform: scale(1.33);
+}
+
+#cardWidgetSelector img{
+    object-fit: contain;
+    width: 100%;
+    border-radius: 2px;
+}
+
+#cardWitgetDisplay article:has(img) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+#cardWitgetDisplay article:has(img) > img {
+    width: 24%;
+}
+
+#cardWitgetDisplay article:has(img) div {
+    width: 70%;
+    margin: auto;
+}
+
+#cardWitgetDisplay article:has(img) h1, #cardWitgetDisplay article:has(img) h2, #cardWitgetDisplay article:has(img) h3 {
+    width: 100%;
+    text-align: center;
+}
+
+#cardWitgetDisplay .labelledIconList {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 0.5rem;
+}

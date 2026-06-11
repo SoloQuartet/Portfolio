@@ -1,0 +1,30 @@
+<h2>
+    Dungeon Master Pilot
+</h2>
+<img src="/assets/images/testCover.png" alt="">
+<div>
+<p>
+    Dungeon Master Pilot is a software I intend to make to help me during my role games to be able to easily manage the mood and eventually more.
+</p>
+<p>
+    I intend to essentially use Python with Tkinter.
+</p>
+</div>
+<ArticleSeparator/>
+<p>
+    The project hasn't begun yet.
+</p>
+<ArticleSeparator/>
+<h3>
+    Linked Skills :
+</h3>
+<ul class="labelledIconList">
+    <li>
+        <img src="/assets/images/PythonIcon.png" alt="">
+        <span>Python</span>
+    </li>
+    <li>
+        <img src="/assets/images/SpyderIcon.png" alt="">
+        <span>Spyder</span>
+    </li>
+</ul>

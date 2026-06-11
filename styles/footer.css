@@ -1,0 +1,71 @@
+footer {
+    background-color: var(--objectBackgroundColor);
+    height: 12rem;
+    border-top: 2px solid var(--borderColor);
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h1 {
+    height: 10%;
+    margin-top: 8px;
+    margin-left: -1rem;
+    font-size: larger;
+    width: 100%;
+}
+
+footer > span {
+    height: 85%;
+    border-left: 2px solid var(--borderColor);
+    align-self: center;
+}
+
+footer > :first-child{
+    width: 70%;
+}
+
+.socials {
+    width: 20%;
+}
+
+.socials ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 85%;
+    width: 100%;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.socials ul > li {
+    width: 33%;
+    height: 30%;
+    text-align: center;
+}
+
+.socials a > img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.contact {
+    margin-left: 1rem;
+}
+
+.contact ul {
+    list-style-type: none;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contact ul > li {
+    width: 40%;
+}

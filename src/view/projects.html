@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <script src="/src/controller/mainController.js"></script>
+    <title>Projets - SoloQuartet</title>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <ul class="loadableContent" data-content-name="navbarItems">
+                
+            </ul>
+        </nav>
+        <button onclick="toggleNav()">
+            <svg width="100" height="100" viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg">
+                <polygon points="50,5 5,95 95,95" fill="currentColor" />
+            </svg>
+        </button>
+        <select name="languageSelect" id="languageSelect">
+            <option value="French">🇫🇷</option>
+            <option value="English">🇬🇧</option>
+        </select>
+    </header>
+    <main>
+       <section>
+            <article>
+                <h1>Projets</h1>
+                <ul id="cardWidgetSelector">
+                    <li>
+                        <img src="/assets/images/testCard.png" alt="" data-project-title="Myratha">
+                    </li>
+                    <li>
+                        <img src="/assets/images/testCard.png" alt="" data-project-title="CompletePortfolio">
+                    </li>
+                    <li>
+                        <img src="/assets/images/testCard.png" alt="" data-project-title="Exposure">
+                    </li>
+                    <li>
+                        <img src="/assets/images/testCard.png" alt="" data-project-title="DMasterPilot">
+                    </li>
+                </ul>
+            </article>
+       </section>
+       <section id="cardWitgetDisplay">
+            <article>
+                <h2>Vue d'ensemble du projet</h2>
+            </article>
+            <article>
+                Ici s'afficheront les détails du projet que vous sélectionnerez.<!--Project logs-->
+            </article>
+            <article>
+                <!--Project credits-->
+            </article>
+       </section>
+       <script src="/src/controller/cardProjectWidgetController.js"></script>
+    </main>
+    <footer>
+        <section class="contact">
+            <!--Contact-->
+            <h1>Contact</h1>
+            <ul>
+                <li><a href="mailto:jessy.trapani@etu.univ-grenoble-alpes.fr?body=Bonjour%20monsieur%20Trapani%2C%0A%0A">jessy.trapani@etu.univ-grenoble-alpes.fr</a></li>
+            </ul>
+        </section>
+        <span></span>
+        <section class="socials">
+            <!--Socials-->
+            <h1>Social</h1>
+            <ul>
+                <li><a href="https://www.youtube.com/@solo-quartet"><img src="/assets/images/YouTubeIcon.png" alt="YouTube"></a></li>
+                <li><a href="https://www.twitch.tv/kundarnh"><img src="/assets/images/TwitchIcon.png" alt="Twitch"></a></li>
+                <li><a href=""><img src="/assets/images/InstagramIcon.png" alt="Instagram"></a></li>
+                <li><a href=""><img src="/assets/images/TikTokIcon.png" alt="TikTok"></a></li>
+                <li><a href="https://soundcloud.com/soloquartet"><img src="/assets/images/SoundCloudIcon.png" alt="SoundCloud"></a></li>
+                <li><a href=""><img src="/assets/images/SpotifyIcon.png" alt="Spotify"></a></li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>

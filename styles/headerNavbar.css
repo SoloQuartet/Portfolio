@@ -1,0 +1,103 @@
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+    padding: 0px;
+}
+
+nav ul > li > a {
+    display: block;
+    text-align: center;
+    height: 2.5rem;
+    width: 9rem;
+    text-decoration: none;
+    font-family: 'Momo Trust Display';
+    color: var(--mainTextColor);
+    transition: 0.3s ease-in-out;
+}
+
+nav ul > li > a:hover {
+    color: orange;
+    zoom: 1.1;
+}
+
+nav ul > li:nth-child(3) > a{
+    width: 13rem;
+    font-size: xx-large;
+}
+
+nav ul > :not(li:nth-child(3)) > a{
+    margin-top: 8px;
+    font-size: larger;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: 100px;
+    margin-bottom: -4rem;
+    transition-duration: 0.5s;
+    transition-property: transform;
+}
+
+.collapsed {
+    transform: translateY(-66px);
+}
+
+header > button, header > select{
+    width: 4rem;
+    height: 2rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    transform: translateY(-66px);
+    margin-left: 5%;
+
+    border: solid 2px var(--borderColor);
+    border-top: none;
+    border-radius: 0px 0px 0.5rem 0.5rem;
+    background-color: var(--objectBackgroundColor);
+
+    transition-duration: 0.5s;
+    transition-property: color;
+}
+
+header > select {
+    transform: translateY(-98px);
+    margin-left: 90%;
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 2rem;
+    transition-duration: 0.2s;
+    transition-property: transform;
+    position: relative;
+    z-index: -1;
+}
+
+.collapsed > select {
+    transform: translateY(-135px);
+}
+
+select > span {
+    margin-top: -8px;
+}
+
+.collapsed > button > svg {
+    transform: rotate(180deg);
+}
+
+header > button:hover {
+    color: orange;
+}
+
+nav {
+    background-color: var(--objectBackgroundColor);
+    width: 100%;
+    height: 4rem;
+    padding-top: 4rem;
+    border-bottom: 2px solid var(--borderColor);
+    transform: translate(0, -4rem);
+}

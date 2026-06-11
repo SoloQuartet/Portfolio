@@ -1,0 +1,7 @@
+html, body {
+    --borderColor: #736b5e;
+    --mainTextColor: #e8e6e3;
+    --mainBackgroundColor: #181a1b;
+    --objectBackgroundColor: #26292A;
+    color-scheme: dark !important;
+}

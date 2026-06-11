@@ -1,0 +1,38 @@
+<h2>
+    Portfolio Complètement Refait
+</h2>
+<img src="/assets/images/testCover.png" alt="">
+<div>
+    <p>
+    Vous êtes actuellement en train d'explorer mon portfolio, certaines fonctionnalités sont en cours de développement et tombent donc sous ce projet.
+</p>
+<p>
+    Les points majeurs à compléter sont les illustrations à ajouter.
+</p>
+</div>
+<ArticleSeparator/>
+<p>
+    Je suis actuellemnt en train de travailler dessus de façon régulière.
+</p>
+<ArticleSeparator/>
+<h3>
+    Conaissances Liées :
+</h3>
+<ul class="labelledIconList">
+    <li>
+        <img src="/assets/images/HTML5Icon.png" alt="">
+        <span>HTML</span>
+    </li>
+    <li>
+        <img src="/assets/images/CSS3Icon.png" alt="">
+        <span>CSS</span>
+    </li>
+    <li>
+        <img src="/assets/images/JavaScriptIcon.png" alt="">
+        <span>Java Script</span>
+    </li>
+    <li>
+        <img src="/assets/images/VSCodeIcon.png" alt="">
+        <span>Visual Studio Code</span>
+    </li>
+</ul>
