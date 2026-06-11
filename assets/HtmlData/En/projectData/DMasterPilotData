@@ -1,7 +1,7 @@
 <h2>
     Dungeon Master Pilot
 </h2>
-<img src="/assets/images/testCover.png" alt="">
+<img src="/Portfolio/assets/images/testCover.png" alt="">
 <div>
 <p>
     Dungeon Master Pilot is a software I intend to make to help me during my role games to be able to easily manage the mood and eventually more.
@@ -20,11 +20,11 @@
 </h3>
 <ul class="labelledIconList">
     <li>
-        <img src="/assets/images/PythonIcon.png" alt="">
+        <img src="/Portfolio/assets/images/PythonIcon.png" alt="">
         <span>Python</span>
     </li>
     <li>
-        <img src="/assets/images/SpyderIcon.png" alt="">
+        <img src="/Portfolio/assets/images/SpyderIcon.png" alt="">
         <span>Spyder</span>
     </li>
 </ul>

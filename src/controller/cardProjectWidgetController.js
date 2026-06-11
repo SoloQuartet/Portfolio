@@ -9,7 +9,7 @@ cards.forEach(element => {
 
 async function loadProjectData(projectTitle) {
     if(projectTitle==null|projectTitle==""){return;}
-    fetch("/assets/HtmlData/"+localStorage.language.substring(0, 2)+"/projectData/"+projectTitle+"Data")
+    fetch("/Portfolio/assets/HtmlData/"+localStorage.language.substring(0, 2)+"/projectData/"+projectTitle+"Data")
     .then( (result) => result.text() )
     .then( (text) => {
         let dataParts = text.split("<ArticleSeparator/>");

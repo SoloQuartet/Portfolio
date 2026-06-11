@@ -46,7 +46,7 @@ async function loadPageData() {
     let dataEmplacments = [].slice.call(toBeLoaded);
     if(dataEmplacments.length<1){return;}
     dataEmplacments.forEach(element => {
-        fetch("/assets/HtmlData/"+localStorage.language.substring(0, 2)+"/"+element.dataset.contentName+"Data")
+        fetch("/Portfolio/assets/HtmlData/"+localStorage.language.substring(0, 2)+"/"+element.dataset.contentName+"Data")
         .then( (result) => result.text() )
         .then( (text) => {
             element.innerHTML = text;
